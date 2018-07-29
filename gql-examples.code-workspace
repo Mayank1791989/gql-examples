@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "apollo"
+		},
+		{
+			"path": "relay-classic"
+		},
+		{
+			"path": "relay-modern"
+		},
+		{
+			"path": "relay-modern-migrate-from-classic"
+		}
+	],
+	"settings": {}
+}

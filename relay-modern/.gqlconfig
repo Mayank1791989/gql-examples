@@ -1,0 +1,13 @@
+{
+  schema: {
+    files: "data/schema.graphql"
+  },
+  query: {
+    files: [
+      {
+        match: "js/**/*.js",
+        presets: ["relay-modern"],
+      }
+    ]
+  }
+}

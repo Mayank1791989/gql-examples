@@ -1,0 +1,21 @@
+{
+	schema: {
+		files: "schema/*.graphql",
+		graphQLOptions: {
+			commentDescriptions: true,
+			allowLegacySDLImplementsInterface: true,
+		},
+	},
+	query: {
+		files: [
+			{
+				match: 'src/**/*.js',
+				presets: ['apollo'],
+			},
+			{
+				match: 'src/**/*.graphql',
+				presets: ['default'],
+			}
+		]
+	}
+}
